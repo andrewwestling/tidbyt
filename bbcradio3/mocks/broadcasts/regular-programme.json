@@ -1,0 +1,90 @@
+{
+  "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/BroadcastsResponse",
+  "total": 1,
+  "limit": 30,
+  "offset": 0,
+  "data": [
+    {
+      "type": "broadcast",
+      "pid": "p0lbh9xy",
+      "start": "2025-06-11T15:00:00Z",
+      "end": "2025-06-11T16:30:00Z",
+      "service_id": "bbc_radio_three",
+      "duration": 5400,
+      "progress": 1200,
+      "live": false,
+      "blanked": false,
+      "repeat": false,
+      "critical": false,
+      "on_air": true,
+      "programme": {
+        "type": "episode",
+        "id": "m002abc1",
+        "urn": "urn:bbc:radio:episode:m002abc1",
+        "network": {
+          "id": "bbc_radio_three",
+          "key": "radio3",
+          "short_title": "Radio 3",
+          "long_title": "BBC Radio 3",
+          "group": "radio",
+          "active": true
+        },
+        "media_type": "audio",
+        "release_date": "2025-06-11T00:00:00Z",
+        "siblings_count": 0,
+        "position": {
+          "position": null,
+          "total": null
+        },
+        "titles": {
+          "primary": "Afternoon Concert",
+          "secondary": "Mozart and Friends",
+          "tertiary": null,
+          "entity_title": "Mozart and Friends",
+          "display_title": "Afternoon Concert - Mozart and Friends",
+          "primary_title": "Afternoon Concert",
+          "secondary_title": null
+        },
+        "synopses": {
+          "short": "A delightful selection of Mozart's chamber music with works by his contemporaries.",
+          "medium": "Sarah Walker presents a programme of Mozart's chamber music alongside works by his contemporaries and friends including Haydn and Beethoven.",
+          "long": "Sarah Walker presents a delightful programme celebrating Mozart and his musical circle. Featuring chamber works by Mozart alongside pieces by his contemporaries and friends including Haydn and early Beethoven.\n\nMozart: String Quartet No. 19 in C major, K465 'Dissonance'\nHaydn: String Quartet Op. 76, No. 3 'Emperor'\nBeethoven: Piano Trio No. 1 in E-flat major, Op. 1\n\nWith performances by the Belcea Quartet and the Florestan Trio."
+        },
+        "images": [
+          {
+            "type": "standard",
+            "id": "p0ck54yz",
+            "url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0ck54yz.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "type": "genre",
+            "id": "music",
+            "key": "music",
+            "title": "Music"
+          },
+          {
+            "type": "genre",
+            "id": "music-classical",
+            "key": "classical",
+            "title": "Classical"
+          }
+        ],
+        "ancestors": [
+          {
+            "type": "brand",
+            "id": "b006tnxs",
+            "title": "Afternoon Concert",
+            "synopses": {
+              "short": "Classical music to lift your afternoon",
+              "medium": "The best classical music to accompany your afternoon, with a focus on chamber music and solo performances",
+              "long": null
+            }
+          }
+        ],
+        "availability": null
+      }
+    }
+  ]
+}

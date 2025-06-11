@@ -1,0 +1,92 @@
+{
+  "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/SegmentItemsResponse",
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "data": [
+    {
+      "type": "segment_item",
+      "id": "p0lhq0b3",
+      "urn": "urn:bbc:radio:segment:music:n62czc",
+      "segment_type": "music",
+      "titles": {
+        "primary": "Joseph Bologne, Chevalier de Saint-Georges",
+        "secondary": "Largo (2nd movement) from Violin Concerto in A major, Op.5 no.2",
+        "tertiary": null,
+        "entity_title": "Joseph Bologne, Chevalier de Saint-Georges"
+      },
+      "synopses": null,
+      "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p08w482r.jpg",
+      "offset": {
+        "start": 645,
+        "end": 1108,
+        "label": "Less Than a Minute Ago",
+        "now_playing": false
+      },
+      "uris": []
+    },
+    {
+      "type": "segment_item",
+      "id": "p0lhpz7p",
+      "urn": "urn:bbc:radio:segment:music:npxnz8",
+      "segment_type": "music",
+      "titles": {
+        "primary": "Luise Adolpha Le Beau",
+        "secondary": "Cello Sonata (1st mvt)",
+        "tertiary": null,
+        "entity_title": "Luise Adolpha Le Beau"
+      },
+      "synopses": null,
+      "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p01bqlwj.jpg",
+      "offset": {
+        "start": 323,
+        "end": 647,
+        "label": "7 Minutes Ago",
+        "now_playing": false
+      },
+      "uris": []
+    },
+    {
+      "type": "segment_item",
+      "id": "p0lhpx97",
+      "urn": "urn:bbc:radio:segment:music:n2d59b",
+      "segment_type": "music",
+      "titles": {
+        "primary": "Mikhail Ivanovich Glinka",
+        "secondary": "Ruslan and Ludmila (Overture)",
+        "tertiary": null,
+        "entity_title": "Mikhail Ivanovich Glinka"
+      },
+      "synopses": null,
+      "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p01bqyqw.jpg",
+      "offset": {
+        "start": 32,
+        "end": 324,
+        "label": "13 Minutes Ago",
+        "now_playing": false
+      },
+      "uris": []
+    },
+    {
+      "type": "segment_item",
+      "id": "p0lhpvpm",
+      "urn": "urn:bbc:radio:segment:music:n3vf4v",
+      "segment_type": "music",
+      "titles": {
+        "primary": "Domenico Scarlatti",
+        "secondary": "Keyboard Sonata in A major, K 212",
+        "tertiary": null,
+        "entity_title": "Domenico Scarlatti"
+      },
+      "synopses": null,
+      "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p01bqxhk.jpg",
+      "offset": {
+        "start": 6803,
+        "end": 6985,
+        "label": "22 Minutes Ago",
+        "now_playing": false
+      },
+      "uris": []
+    }
+  ]
+}
