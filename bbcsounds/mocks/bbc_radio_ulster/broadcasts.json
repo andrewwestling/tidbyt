@@ -1,0 +1,84 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/BroadcastsResponse",
+    "total": 1,
+    "limit": 30,
+    "offset": 0,
+    "data": [
+        {
+            "type": "broadcast",
+            "pid": "p0lcy5cz",
+            "start": "2025-06-11T23:00:00Z",
+            "end": "2025-06-12T05:30:00Z",
+            "service_id": "bbc_radio_ulster",
+            "duration": 23400,
+            "progress": 7281,
+            "live": false,
+            "blanked": false,
+            "repeat": false,
+            "critical": false,
+            "on_air": true,
+            "programme": {
+                "type": "episode",
+                "id": "m0020rb8",
+                "urn": "urn:bbc:radio:episode:m0020rb8",
+                "network": {
+                    "id": "bbc_radio_ulster",
+                    "key": "radioulster",
+                    "short_title": "Radio Ulster",
+                    "long_title": "BBC Radio Ulster",
+                    "group": "radio",
+                    "active": true
+                },
+                "media_type": "audio",
+                "release_date": "2024-06-15T00:00:00Z",
+                "siblings_count": 0,
+                "position": {
+                    "position": null,
+                    "total": null
+                },
+                "titles": {
+                    "primary": "As BBC Radio 5 live",
+                    "secondary": null,
+                    "tertiary": null,
+                    "entity_title": "As BBC Radio 5 live",
+                    "display_title": "As BBC Radio 5 live",
+                    "primary_title": "As BBC Radio 5 live",
+                    "secondary_title": null
+                },
+                "synopses": {
+                    "short": "BBC Radio Ulster joins BBC Radio 5 live.",
+                    "medium": null,
+                    "long": null
+                },
+                "images": [
+                    {
+                        "type": "standard",
+                        "id": "p0f90y89",
+                        "url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0f90y89.jpg"
+                    }
+                ],
+                "categories": [
+                    {
+                        "type": "genre",
+                        "id": "factual",
+                        "key": "factual",
+                        "title": "Factual"
+                    }
+                ],
+                "ancestors": [
+                    {
+                        "type": "brand",
+                        "id": "b01mwvng",
+                        "title": "As BBC Radio 5 live",
+                        "synopses": {
+                            "short": "BBC Radio Ulster joins BBC Radio 5 live",
+                            "medium": "BBC Radio Ulster joins BBC Radio 5 live",
+                            "long": null
+                        }
+                    }
+                ],
+                "availability": null
+            }
+        }
+    ]
+}

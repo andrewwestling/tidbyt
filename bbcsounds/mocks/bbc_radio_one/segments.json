@@ -1,0 +1,92 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/SegmentItemsResponse",
+    "total": 4,
+    "limit": 4,
+    "offset": 0,
+    "data": [
+        {
+            "type": "segment_item",
+            "id": "p0lbtc6s",
+            "urn": "urn:bbc:radio:segment:music:n8vx5b",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Par-T-One",
+                "secondary": "I'm So Crazy (The Cube Guys Remix)",
+                "tertiary": null,
+                "entity_title": "Par-T-One"
+            },
+            "synopses": null,
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqcdzf.jpg",
+            "offset": {
+                "start": 3101,
+                "end": 3349,
+                "label": "Now Playing",
+                "now_playing": true
+            },
+            "uris": []
+        },
+        {
+            "type": "segment_item",
+            "id": "p0lbtc5h",
+            "urn": "urn:bbc:radio:segment:music:n8vx5r",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Jezu & Blow",
+                "secondary": "Remember Me",
+                "tertiary": null,
+                "entity_title": "Jezu & Blow"
+            },
+            "synopses": null,
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqcdzf.jpg",
+            "offset": {
+                "start": 2863,
+                "end": 3029,
+                "label": "2 Minutes Ago",
+                "now_playing": false
+            },
+            "uris": []
+        },
+        {
+            "type": "segment_item",
+            "id": "p0lbtc3w",
+            "urn": "urn:bbc:radio:segment:music:n8gjh5",
+            "segment_type": "music",
+            "titles": {
+                "primary": "CASSIMM & D\u2019Vision",
+                "secondary": "You Got It All",
+                "tertiary": null,
+                "entity_title": "CASSIMM & D\u2019Vision"
+            },
+            "synopses": null,
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqcdzf.jpg",
+            "offset": {
+                "start": 2622,
+                "end": 2864,
+                "label": "4 Minutes Ago",
+                "now_playing": false
+            },
+            "uris": []
+        },
+        {
+            "type": "segment_item",
+            "id": "p0lbtc1r",
+            "urn": "urn:bbc:radio:segment:music:n8jp5b",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Low Steppa & Capri",
+                "secondary": "Got The Funk",
+                "tertiary": null,
+                "entity_title": "Low Steppa & Capri"
+            },
+            "synopses": null,
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p07zq37h.jpg",
+            "offset": {
+                "start": 2322,
+                "end": 2623,
+                "label": "8 Minutes Ago",
+                "now_playing": false
+            },
+            "uris": []
+        }
+    ]
+}

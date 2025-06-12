@@ -1,0 +1,71 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/SegmentItemsResponse",
+    "total": 3,
+    "limit": 4,
+    "offset": 0,
+    "data": [
+        {
+            "type": "segment_item",
+            "id": "p0k87nx2",
+            "urn": "urn:bbc:radio:segment:music:n8fczg",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Joseph Haydn",
+                "secondary": "The Seven Last Words of our Saviour on the Cross Op.51: 2",
+                "tertiary": null,
+                "entity_title": "Joseph Haydn"
+            },
+            "synopses": null,
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p01bqkby.jpg",
+            "offset": {
+                "start": 5057,
+                "end": 5512,
+                "label": "Now Playing",
+                "now_playing": true
+            },
+            "uris": []
+        },
+        {
+            "type": "segment_item",
+            "id": "p0k87njj",
+            "urn": "urn:bbc:radio:segment:music:nz6wp5",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Felix Mendelssohn",
+                "secondary": "Verleih Uns Frieden",
+                "tertiary": null,
+                "entity_title": "Felix Mendelssohn"
+            },
+            "synopses": null,
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p01bqdsq.jpg",
+            "offset": {
+                "start": 4506,
+                "end": 4782,
+                "label": "10 Minutes Ago",
+                "now_playing": false
+            },
+            "uris": []
+        },
+        {
+            "type": "segment_item",
+            "id": "p0k87n6j",
+            "urn": "urn:bbc:radio:segment:music:n8fczx",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Wolfgang Amadeus Mozart",
+                "secondary": "Piano Sonata in A major Andante Grazioso 1-6",
+                "tertiary": null,
+                "entity_title": "Wolfgang Amadeus Mozart"
+            },
+            "synopses": null,
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p024q7mb.jpg",
+            "offset": {
+                "start": 3799,
+                "end": 4195,
+                "label": "20 Minutes Ago",
+                "now_playing": false
+            },
+            "uris": []
+        }
+    ]
+}

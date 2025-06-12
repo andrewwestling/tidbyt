@@ -1,0 +1,135 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/BroadcastsResponse",
+    "total": 1,
+    "limit": 30,
+    "offset": 0,
+    "data": [
+        {
+            "type": "broadcast",
+            "pid": "p0lcy5qy",
+            "start": "2025-06-12T00:45:00Z",
+            "end": "2025-06-12T01:00:00Z",
+            "service_id": "bbc_radio_four_extra",
+            "duration": 900,
+            "progress": 774,
+            "live": false,
+            "blanked": false,
+            "repeat": false,
+            "critical": false,
+            "on_air": true,
+            "programme": {
+                "type": "episode",
+                "id": "b01nhg6d",
+                "urn": "urn:bbc:radio:episode:b01nhg6d",
+                "network": {
+                    "id": "bbc_radio_four_extra",
+                    "key": "radio4extra",
+                    "short_title": "Radio 4 Extra",
+                    "long_title": "BBC Radio 4 Extra",
+                    "group": "radio",
+                    "active": true
+                },
+                "media_type": "audio",
+                "release_date": "1984-10-03T00:00:00Z",
+                "siblings_count": 0,
+                "position": {
+                    "position": 3,
+                    "total": 0
+                },
+                "titles": {
+                    "primary": "Whodunnits",
+                    "secondary": "Inspector Barlach - The Judge and his Hangman",
+                    "tertiary": "3. Dinners",
+                    "entity_title": "3. Dinners",
+                    "display_title": "Whodunnits - Inspector Barlach - The Judge and his Hangman - 3. Dinners",
+                    "primary_title": "Inspector Barlach - The Judge and his Hangman",
+                    "secondary_title": null
+                },
+                "synopses": {
+                    "short": "What is the truth behind the shadowy Gastmann's dinner parties?",
+                    "medium": "What is the truth behind the shadowy Gastmann's dinner parties? Bernard Hepton reads Friedrich D\u00fcrrenmatt's novella.",
+                    "long": "What is the truth behind the dinner parties thrown by the shadowy Gastmann? \n\nFriedrich D\u00fcrrenmatt's thrilling tale of lifelong rivalry.\n\nRead by Bernard Hepton.\n\nProducer:  Maurice Leitch\n\nFirst broadcast on BBC Radio 4 in October 1984."
+                },
+                "images": [
+                    {
+                        "type": "standard",
+                        "id": "p0l6y1s8",
+                        "url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0l6y1s8.jpg"
+                    }
+                ],
+                "categories": [
+                    {
+                        "type": "genre",
+                        "id": "drama",
+                        "key": "drama",
+                        "title": "Drama"
+                    },
+                    {
+                        "type": "genre",
+                        "id": "drama-crime",
+                        "key": "crime",
+                        "title": "Crime"
+                    }
+                ],
+                "ancestors": [
+                    {
+                        "type": "brand",
+                        "id": "p0fsqm4x",
+                        "title": "Whodunnits",
+                        "synopses": {
+                            "short": "Murder mysteries from the world's greatest crime fiction writers. Only on BBC Sounds.",
+                            "medium": "A collection of murder mysteries from some of the world's greatest writers of crime fiction. Only on BBC Sounds.",
+                            "long": null
+                        }
+                    },
+                    {
+                        "type": "series",
+                        "id": "b01nh5vl",
+                        "title": "Inspector Barlach - The Judge and his Hangman",
+                        "synopses": {
+                            "short": "Bernard Hepton reads Friedrich D\u00fcrrenmatt's novella.",
+                            "medium": "A policeman is dead and Inspector Barlach has a hunch about the murderer. Bernard Hepton reads Friedrich D\u00fcrrenmatt's novella.",
+                            "long": null
+                        }
+                    }
+                ],
+                "availability": {
+                    "type": "original",
+                    "id": "b01nhd2j",
+                    "duration": 900,
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "has_guidance": false,
+                    "available_from_date": "2025-06-11T06:00:00Z",
+                    "available_to_date": "2025-07-12T01:00:00Z",
+                    "status": "available",
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 13000000,
+                                "label": "13 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 17000000,
+                                "label": "17 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 41000000,
+                                "label": "41 MB"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

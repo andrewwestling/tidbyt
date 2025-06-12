@@ -1,0 +1,84 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/BroadcastsResponse",
+    "total": 1,
+    "limit": 30,
+    "offset": 0,
+    "data": [
+        {
+            "type": "broadcast",
+            "pid": "p0lcy5bf",
+            "start": "2025-06-11T23:00:00Z",
+            "end": "2025-06-12T04:30:00Z",
+            "service_id": "bbc_radio_cymru",
+            "duration": 19800,
+            "progress": 7057,
+            "live": false,
+            "blanked": false,
+            "repeat": false,
+            "critical": false,
+            "on_air": true,
+            "programme": {
+                "type": "episode",
+                "id": "m002dbzv",
+                "urn": "urn:bbc:radio:episode:m002dbzv",
+                "network": {
+                    "id": "bbc_radio_cymru",
+                    "key": "radiocymru",
+                    "short_title": "Radio Cymru",
+                    "long_title": "BBC Radio Cymru",
+                    "group": "",
+                    "active": true
+                },
+                "media_type": "audio",
+                "release_date": "2025-06-12T00:00:00Z",
+                "siblings_count": 0,
+                "position": {
+                    "position": null,
+                    "total": null
+                },
+                "titles": {
+                    "primary": "Gweler BBC World Service",
+                    "secondary": "12/06/2025",
+                    "tertiary": null,
+                    "entity_title": "12/06/2025",
+                    "display_title": "Gweler BBC World Service - 12/06/2025",
+                    "primary_title": "Gweler BBC World Service",
+                    "secondary_title": null
+                },
+                "synopses": {
+                    "short": "Mae Radio Cymru'n ymuno \u00e2'r BBC World Service dros nos.",
+                    "medium": "Mae Radio Cymru'n ymuno \u00e2'r BBC World Service dros nos. Radio Cymru joins the BBC World Service overnight.",
+                    "long": null
+                },
+                "images": [
+                    {
+                        "type": "standard",
+                        "id": "p0jrhqq6",
+                        "url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0jrhqq6.jpg"
+                    }
+                ],
+                "categories": [
+                    {
+                        "type": "genre",
+                        "id": "factual",
+                        "key": "factual",
+                        "title": "Factual"
+                    }
+                ],
+                "ancestors": [
+                    {
+                        "type": "brand",
+                        "id": "m000h2gf",
+                        "title": "Gweler BBC World Service",
+                        "synopses": {
+                            "short": "Mae Radio Cymru'n ymuno \u00e2'r World Service dros nos.",
+                            "medium": "Mae Radio Cymru'n ymuno \u00e2'r World Service dros nos. Radio Cymru joins the World Service overnight.",
+                            "long": null
+                        }
+                    }
+                ],
+                "availability": null
+            }
+        }
+    ]
+}

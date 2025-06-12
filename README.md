@@ -10,6 +10,8 @@ This is my repository for experimenting with Tidbyt development
   - Show what is currently playing on [All Classical Portland (KQAC)](https://allclassical.org)
 - [**WNYC "What's On"**](/wnyc/)
   - Show what is currently playing on [WNYC](https://wnyc.org)
+- [**BBC Sounds "What's On"**](/bbcsounds/)
+  - Show what is currently playing on any station on [BBC Sounds](https://www.bbc.co.uk/sounds/stations)
 
 ## Setup
 

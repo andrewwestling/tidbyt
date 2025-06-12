@@ -1,0 +1,135 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/BroadcastsResponse",
+    "total": 1,
+    "limit": 30,
+    "offset": 0,
+    "data": [
+        {
+            "type": "broadcast",
+            "pid": "p0ldq5fd",
+            "start": "2025-06-12T00:00:00Z",
+            "end": "2025-06-12T01:00:00Z",
+            "service_id": "bbc_6music",
+            "duration": 3600,
+            "progress": 3207,
+            "live": false,
+            "blanked": false,
+            "repeat": false,
+            "critical": false,
+            "on_air": true,
+            "programme": {
+                "type": "episode",
+                "id": "m0014zd5",
+                "urn": "urn:bbc:radio:episode:m0014zd5",
+                "network": {
+                    "id": "bbc_6music",
+                    "key": "6music",
+                    "short_title": "Radio 6 Music",
+                    "long_title": "BBC Radio 6 Music",
+                    "group": "radio",
+                    "active": true
+                },
+                "media_type": "audio",
+                "release_date": "2022-03-07T00:00:00Z",
+                "siblings_count": 0,
+                "position": {
+                    "position": null,
+                    "total": null
+                },
+                "titles": {
+                    "primary": "The Collection",
+                    "secondary": "Peel Acres",
+                    "tertiary": "Charlie Bones",
+                    "entity_title": "Charlie Bones",
+                    "display_title": "The Collection - Peel Acres - Charlie Bones",
+                    "primary_title": "Peel Acres",
+                    "secondary_title": null
+                },
+                "synopses": {
+                    "short": "Tom Ravenscroft invites guests to Peel Acres: the home of John Peel's music collection.",
+                    "medium": "Tom Ravenscroft invites guests to Peel Acres: the home of John Peel's music collection.",
+                    "long": "Radio DJ Charlie Bones is Tom Ravenscroft\u2019s latest guest to Peel Acres; the home of his dad, John Peel, and his legendary music collection.\n\nJohn\u2019s broadcasting career spanned five decades,  over which time he meticulously catalogued tens of thousands of records.\n\nPresenter: Tom Ravenscroft\nProducers: Kevin Core and Becca Bryers\nEditor: James Cook\n\n\nEpisode Sleeve Notes\n\nTrack 1: Sure 'Nuff 'N Yes I Do - Captain Beefheart and His Magic Band (from Dropout Boogie)\nCharlie\u2019s first pick is a 1970 stereo reissue of the debut album from avant-garde, genre-blending, singer-songwriter Captain Beefheart and his Magic Band. The LP was first released three years earlier, under a completely different title: Safe As Milk. \n \nTrack 2: Lemon Flower - Ivor Cutler (from Jammy Smears)\nScottish humourist poet and musician Ivor Cutler became known for his regular performances on John Peel\u2019s Radio 1 show - as well as elsewhere on the BBC. He would often accompany himself on a harmonium. This 1976 album features 31 tracks - the shortest, just 8 seconds long.\n\nTrack 3: Sif Safa - Mohamed Moneer (from Yalla - Hitlist Egypt)\nCharlie is excited to find this 1990 compilation album from Island Records, featuring a track by Egyptian singer (and actor) Mohamed Mounir, whose musical career spans over 40 years.  \n\nTrack 4: Chuerailheli Cow Bells Man\u2019s Solo (pasture) (from Jodel of the Muotatal (Switzerland))\nRecorded in 1979, this album features the yodelling voices of cattle herders in Switzerland's Muotatal valley, accompanied by the clang of cowbells. Charlie owns the LP himself and played it on his NTS radio show.\n\nTrack 5: Manaquib Chisti - Nusrat Fateh Ali Khan (from En Concert A Paris)\nPakistani artist Nusrat Fateh Ali Khan is known as one of the greatest qawaali singers in history; qawaali being a form of Sufi Islamic devotional singing. This live album was recorded by Radio France in November 1985. Charlie also mentions another of Nusrat\u2019s albums, Magic Touch, which was made in collaboration with producer Bally Sagoo and released on Birmingham-based label Oriental Star Agencies.\n\nTrack 6: Pearly-Dewdrops\u2019 Drops - Cocteau Twins\nNext Charlie pulls out his favourite song by Scottish band Cocteau Twins - who pioneered the 1980s subgenre of dream pop. The trio took their name from a song by another Scottish band, Johnny and the Self-Abusers - who renamed themselves Simple Minds. \n\nTrack 7: Me No Pop I - Coati Mundi\nThis single was a top 40 UK hit for American singer and percussionist Coati Mundi - aka Andy Hernandez  - best known for being a member of Kid Creole and the Coconuts. Charlie recommends everyone should watch the video of Coati Mundi singing and dancing his way through Washington Square Park, in New York.\n\nTrack 8: \u2018Bye \u2018Bye Brenda - Len Liggins (from A Head Full of Ants)\n\nCharlie\u2019s only true \u201clucky dip\u201d selection was this, by Leeds-based singer-songwriter Len Liggens. It turns out Len is also a member of The Ukrainians, along with Peter Solowka from The Wedding Present. The band launched following the success of a special Ukrainian-language John Peel session.\n\nTrack 9: The Missing Link / Mentally Murdered - Napalm Death (from Mentally Murdered)\n\nAnd finally - a 12\u201d single from Napalm Death; pioneers of the grindcore genre. Charlie remembers John playing some of the band\u2019s super-heavy but super-brief tracks on his Radio 1 show - in fact, they hold the world record for the shortest recorded song ever: You Suffer at 1.316 seconds."
+                },
+                "images": [
+                    {
+                        "type": "standard",
+                        "id": "p0d87cds",
+                        "url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0d87cds.jpg"
+                    }
+                ],
+                "categories": [
+                    {
+                        "type": "genre",
+                        "id": "music",
+                        "key": "music",
+                        "title": "Music"
+                    },
+                    {
+                        "type": "format",
+                        "id": "podcasts",
+                        "key": "podcasts",
+                        "title": "Podcasts"
+                    }
+                ],
+                "ancestors": [
+                    {
+                        "type": "brand",
+                        "id": "m0014cg1",
+                        "title": "The Collection",
+                        "synopses": {
+                            "short": "The Collection explores some of the world's most exciting record collections.",
+                            "medium": "The Collection explores some of the world's most exciting record collections, sharing the infinite stories that spring from the music within them.",
+                            "long": "The Collection explores some of the world's largest and most exciting record collections, picking out the best of the best tracks, and sharing the infinite stories that spring from those discoveries."
+                        }
+                    },
+                    {
+                        "type": "series",
+                        "id": "m0014cg0",
+                        "title": "Peel Acres",
+                        "synopses": {
+                            "short": "Tom Ravenscroft invites guests to Peel Acres: the home of John Peel's music collection.",
+                            "medium": "Tom Ravenscroft invites a different guest each week to Peel Acres: the home of his dad, former BBC Radio DJ John Peel (who passed away in 2004), and his legendary music collection.",
+                            "long": "6 Music's Tom Ravenscroft invites a different guest each week to Peel Acres: the home of his dad, former BBC Radio DJ John Peel (who passed away in 2004), and his legendary music collection.\n\nJohn was an English DJ, broadcaster and journalist. His broadcasting career spanned five decades, and he was known for hosting his regular Peel Sessions on his BBC Radio 1 show. He played an instrumental role in the early careers of many bands, including Pulp, The Smiths, The Undertones and The White Stripes.\n\nTom's guests will lend a hand (and two ears) in making sense of this vast record archive, which comprises tens of thousands of albums and singles, built over a lifetime and meticulously catalogued."
+                        }
+                    }
+                ],
+                "availability": {
+                    "type": "other",
+                    "id": "p0bzhw7p",
+                    "duration": 2691,
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "has_guidance": false,
+                    "available_from_date": "2022-04-13T04:00:00Z",
+                    "available_to_date": null,
+                    "status": "available",
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 37000000,
+                                "label": "37 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 49000000,
+                                "label": "49 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 120000000,
+                                "label": "120 MB"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

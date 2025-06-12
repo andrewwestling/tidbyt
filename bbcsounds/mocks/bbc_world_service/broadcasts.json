@@ -1,0 +1,96 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/BroadcastsResponse",
+    "total": 1,
+    "limit": 30,
+    "offset": 0,
+    "data": [
+        {
+            "type": "broadcast",
+            "pid": "p0l8wbtv",
+            "start": "2025-06-12T00:06:00Z",
+            "end": "2025-06-12T01:00:00Z",
+            "service_id": "bbc_world_service",
+            "duration": 3240,
+            "progress": 2857,
+            "live": true,
+            "blanked": false,
+            "repeat": false,
+            "critical": false,
+            "on_air": true,
+            "programme": {
+                "type": "episode",
+                "id": "w172zrs3fpd9j0y",
+                "urn": "urn:bbc:radio:episode:w172zrs3fpd9j0y",
+                "network": {
+                    "id": "bbc_world_service",
+                    "key": "worldserviceradio",
+                    "short_title": "World Service",
+                    "long_title": "BBC World Service",
+                    "group": "radio",
+                    "active": true
+                },
+                "media_type": "audio",
+                "release_date": "2025-06-12T00:00:00Z",
+                "siblings_count": 0,
+                "position": {
+                    "position": null,
+                    "total": null
+                },
+                "titles": {
+                    "primary": "Business Matters",
+                    "secondary": "Disney and Universal sue AI company Midjourney",
+                    "tertiary": null,
+                    "entity_title": "Disney and Universal sue AI company Midjourney",
+                    "display_title": "Business Matters - Disney and Universal sue AI company Midjourney",
+                    "primary_title": "Business Matters",
+                    "secondary_title": null
+                },
+                "synopses": {
+                    "short": "They accuse an AI photo generator of using copyrighted characters",
+                    "medium": "Disney and Universal are suing AI photo generation company Midjourney which they allege repeatedly copied pictures of some of the studios most popular characters.",
+                    "long": "Disney and Universal are suing AI photo generation company Midjourney alleging its popular image generator had become a \"bottomless pit of plagiarism\". Rahul Tandon finds out how likely the lawsuit is to be successful. \n\nAlso, can we expect peace between the US and China in their crucial trade war as both sides say they have agreed on a \"framework\" for a deal?\n\nWe find out why the new LinkedIn data reveals that the rate of women being hired into leadership has dropped for the third year in a row.\n\nAnd we hear how tensions between President Donald Trump and Elon Musk might be affecting investors. \n\nYou can contact us on WhatsApp or send us a voicenote: +44 330 678 3033."
+                },
+                "images": [
+                    {
+                        "type": "standard",
+                        "id": "p0j1wpx3",
+                        "url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0j1wpx3.jpg"
+                    }
+                ],
+                "categories": [
+                    {
+                        "type": "genre",
+                        "id": "factual",
+                        "key": "factual",
+                        "title": "Factual"
+                    },
+                    {
+                        "type": "genre",
+                        "id": "factual-money",
+                        "key": "money",
+                        "title": "Money"
+                    },
+                    {
+                        "type": "format",
+                        "id": "discussionandtalk",
+                        "key": "discussionandtalk",
+                        "title": "Discussion & Talk"
+                    }
+                ],
+                "ancestors": [
+                    {
+                        "type": "brand",
+                        "id": "p016tl04",
+                        "title": "Business Matters",
+                        "synopses": {
+                            "short": "Global business and finance news and discussion from the BBC",
+                            "medium": "Global business and finance news and discussion from the BBC.",
+                            "long": "Global business and finance news and discussion from the BBC."
+                        }
+                    }
+                ],
+                "availability": null
+            }
+        }
+    ]
+}
