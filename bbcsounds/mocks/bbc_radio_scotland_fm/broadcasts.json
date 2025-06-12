@@ -1,0 +1,84 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/BroadcastsResponse",
+    "total": 1,
+    "limit": 30,
+    "offset": 0,
+    "data": [
+        {
+            "type": "broadcast",
+            "pid": "p0lcxpq4",
+            "start": "2025-06-11T23:30:00Z",
+            "end": "2025-06-12T05:00:00Z",
+            "service_id": "bbc_radio_scotland_fm",
+            "duration": 19800,
+            "progress": 5302,
+            "live": false,
+            "blanked": false,
+            "repeat": false,
+            "critical": false,
+            "on_air": true,
+            "programme": {
+                "type": "episode",
+                "id": "m002d9pw",
+                "urn": "urn:bbc:radio:episode:m002d9pw",
+                "network": {
+                    "id": "bbc_radio_scotland",
+                    "key": "radioscotland",
+                    "short_title": "Radio Scotland",
+                    "long_title": "BBC Radio Scotland",
+                    "group": "",
+                    "active": true
+                },
+                "media_type": "audio",
+                "release_date": "2025-06-12T00:00:00Z",
+                "siblings_count": 0,
+                "position": {
+                    "position": null,
+                    "total": null
+                },
+                "titles": {
+                    "primary": "As BBC Radio 5 Live",
+                    "secondary": "12/06/2025",
+                    "tertiary": null,
+                    "entity_title": "12/06/2025",
+                    "display_title": "As BBC Radio 5 Live - 12/06/2025",
+                    "primary_title": "As BBC Radio 5 Live",
+                    "secondary_title": null
+                },
+                "synopses": {
+                    "short": "Joining Radio 5 Live",
+                    "medium": "Joining Radio 5 Live",
+                    "long": null
+                },
+                "images": [
+                    {
+                        "type": "standard",
+                        "id": "p0jy31pb",
+                        "url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0jy31pb.jpg"
+                    }
+                ],
+                "categories": [
+                    {
+                        "type": "genre",
+                        "id": "factual",
+                        "key": "factual",
+                        "title": "Factual"
+                    }
+                ],
+                "ancestors": [
+                    {
+                        "type": "brand",
+                        "id": "b01py8hf",
+                        "title": "As BBC Radio 5 Live",
+                        "synopses": {
+                            "short": "BBC Radio Scotland joins BBC Radio 5 live.",
+                            "medium": "BBC Radio Scotland joins BBC Radio 5 live.",
+                            "long": null
+                        }
+                    }
+                ],
+                "availability": null
+            }
+        }
+    ]
+}

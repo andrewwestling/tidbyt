@@ -1,0 +1,92 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/SegmentItemsResponse",
+    "total": 4,
+    "limit": 4,
+    "offset": 0,
+    "data": [
+        {
+            "type": "segment_item",
+            "id": "p0lhrm8f",
+            "urn": "urn:bbc:radio:segment:music:n8hmvr",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Drake",
+                "secondary": "NOKIA",
+                "tertiary": null,
+                "entity_title": "Drake"
+            },
+            "synopses": null,
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p06f6n4m.jpg",
+            "offset": {
+                "start": 3377,
+                "end": 3416,
+                "label": "Less Than a Minute Ago",
+                "now_playing": false
+            },
+            "uris": []
+        },
+        {
+            "type": "segment_item",
+            "id": "p0lgn7vy",
+            "urn": "urn:bbc:radio:segment:music:n8n48g",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Arvee",
+                "secondary": "HEER PIANO",
+                "tertiary": null,
+                "entity_title": "Arvee"
+            },
+            "synopses": null,
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bqcdzf.jpg",
+            "offset": {
+                "start": 2876,
+                "end": 3057,
+                "label": "6 Minutes Ago",
+                "now_playing": false
+            },
+            "uris": []
+        },
+        {
+            "type": "segment_item",
+            "id": "p0lgn6hp",
+            "urn": "urn:bbc:radio:segment:music:nzn96r",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Jaz Dhami",
+                "secondary": "High Heels",
+                "tertiary": null,
+                "entity_title": "Jaz Dhami"
+            },
+            "synopses": null,
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p01bv8sr.jpg",
+            "offset": {
+                "start": 2401,
+                "end": 2604,
+                "label": "14 Minutes Ago",
+                "now_playing": false
+            },
+            "uris": []
+        },
+        {
+            "type": "segment_item",
+            "id": "p0lgn64s",
+            "urn": "urn:bbc:radio:segment:music:n8q5rf",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Marlon Galvao & Robin S",
+                "secondary": "Show Me Love (Marlon Galvao Remix)",
+                "tertiary": null,
+                "entity_title": "Marlon Galvao & Robin S"
+            },
+            "synopses": null,
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p01br5cj.jpg",
+            "offset": {
+                "start": 2246,
+                "end": 2400,
+                "label": "17 Minutes Ago",
+                "now_playing": false
+            },
+            "uris": []
+        }
+    ]
+}

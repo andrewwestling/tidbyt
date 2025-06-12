@@ -7,7 +7,7 @@
       "id": "appName",
       "description": "Which app do you want to run?",
       "type": "pickString",
-      "options": ["kqac", "wnyc", "wqxr", "bbcradio3"]
+      "options": ["kqac", "wnyc", "wqxr", "bbcsounds"]
     }
   ],
   "tasks": [

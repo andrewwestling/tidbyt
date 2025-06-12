@@ -1,0 +1,84 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/BroadcastsResponse",
+    "total": 1,
+    "limit": 30,
+    "offset": 0,
+    "data": [
+        {
+            "type": "broadcast",
+            "pid": "p0lcxps0",
+            "start": "2025-06-11T23:00:00Z",
+            "end": "2025-06-12T05:00:00Z",
+            "service_id": "bbc_radio_five_live_sports_extra",
+            "duration": 21600,
+            "progress": 7064,
+            "live": false,
+            "blanked": false,
+            "repeat": false,
+            "critical": false,
+            "on_air": true,
+            "programme": {
+                "type": "episode",
+                "id": "m002dbjh",
+                "urn": "urn:bbc:radio:episode:m002dbjh",
+                "network": {
+                    "id": "bbc_radio_five_live_sports_extra",
+                    "key": "5livesportsextra",
+                    "short_title": "Radio 5 Sports Extra",
+                    "long_title": "BBC Radio 5 Sports Extra",
+                    "group": "radio",
+                    "active": true
+                },
+                "media_type": "audio",
+                "release_date": "2025-06-12T00:00:00Z",
+                "siblings_count": 0,
+                "position": {
+                    "position": null,
+                    "total": null
+                },
+                "titles": {
+                    "primary": "This Is Sports Extra",
+                    "secondary": "12/06/2025",
+                    "tertiary": null,
+                    "entity_title": "12/06/2025",
+                    "display_title": "This Is Sports Extra - 12/06/2025",
+                    "primary_title": "This Is Sports Extra",
+                    "secondary_title": null
+                },
+                "synopses": {
+                    "short": "This is BBC Radio 5 Sports Extra - bringing you even more live sports commentaries.",
+                    "medium": "This is BBC Radio 5 Sports Extra - bringing you even more live commentaries from the world's greatest sporting events. Listen on BBC Sounds.",
+                    "long": null
+                },
+                "images": [
+                    {
+                        "type": "standard",
+                        "id": "p0l96z7s",
+                        "url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0l96z7s.jpg"
+                    }
+                ],
+                "categories": [
+                    {
+                        "type": "genre",
+                        "id": "sport",
+                        "key": "sport",
+                        "title": "Sport"
+                    }
+                ],
+                "ancestors": [
+                    {
+                        "type": "brand",
+                        "id": "b01sd536",
+                        "title": "This Is Sports Extra",
+                        "synopses": {
+                            "short": "Live sport coming up on BBC Radio 5 Sports Extra.",
+                            "medium": "Live sport coming up on BBC Radio 5 Sports Extra.",
+                            "long": null
+                        }
+                    }
+                ],
+                "availability": null
+            }
+        }
+    ]
+}

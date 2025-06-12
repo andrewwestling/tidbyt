@@ -1,0 +1,131 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/BroadcastsResponse",
+    "total": 1,
+    "limit": 30,
+    "offset": 0,
+    "data": [
+        {
+            "type": "broadcast",
+            "pid": "p0lbfmwy",
+            "start": "2025-06-12T00:00:00Z",
+            "end": "2025-06-12T02:00:00Z",
+            "service_id": "bbc_asian_network",
+            "duration": 7200,
+            "progress": 3449,
+            "live": false,
+            "blanked": false,
+            "repeat": false,
+            "critical": false,
+            "on_air": true,
+            "programme": {
+                "type": "episode",
+                "id": "m002cp9x",
+                "urn": "urn:bbc:radio:episode:m002cp9x",
+                "network": {
+                    "id": "bbc_asian_network",
+                    "key": "asiannetwork",
+                    "short_title": "Asian Network",
+                    "long_title": "BBC Asian Network",
+                    "group": "radio",
+                    "active": true
+                },
+                "media_type": "audio",
+                "release_date": "2025-06-05T00:00:00Z",
+                "siblings_count": 0,
+                "position": {
+                    "position": null,
+                    "total": null
+                },
+                "titles": {
+                    "primary": "DJ AMXN",
+                    "secondary": "Party essentials from Dr Zeus, HUGEL, Jay Sean and Benny Benassi",
+                    "tertiary": null,
+                    "entity_title": "Party essentials from Dr Zeus, HUGEL, Jay Sean and Benny Benassi",
+                    "display_title": "DJ AMXN - Party essentials from Dr Zeus, HUGEL, Jay Sean and Benny Benassi",
+                    "primary_title": "DJ AMXN",
+                    "secondary_title": null
+                },
+                "synopses": {
+                    "short": "DJ AMXN brings the party essentials from Dr Zeus, HUGEL, Jay Sean, and Benny Benassi.",
+                    "medium": "DJ AMXN brings the party essentials from Dr Zeus, HUGEL, Jay Sean, and Benny Benassi. It's the perfect mix to get the energy soaring. Plus an All Star Anthems.",
+                    "long": "DJ AMXN brings the party essentials from Dr Zeus, HUGEL, Jay Sean, and Benny Benassi. It's the perfect mix to get the energy soaring. Then, the level up with All Star Anthems featuring Arijit Singh, Raf Saperra, OneRepublic, and Bad Bunny. 2 hours of absolute chaos."
+                },
+                "images": [
+                    {
+                        "type": "standard",
+                        "id": "p0jh8yqj",
+                        "url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0jh8yqj.jpg"
+                    }
+                ],
+                "categories": [
+                    {
+                        "type": "genre",
+                        "id": "music",
+                        "key": "music",
+                        "title": "Music"
+                    },
+                    {
+                        "type": "genre",
+                        "id": "music-desi",
+                        "key": "desi",
+                        "title": "Desi"
+                    },
+                    {
+                        "type": "genre",
+                        "id": "music-desi-bhangra",
+                        "key": "bhangra",
+                        "title": "Bhangra"
+                    }
+                ],
+                "ancestors": [
+                    {
+                        "type": "brand",
+                        "id": "m002d4p0",
+                        "title": "DJ AMXN",
+                        "synopses": {
+                            "short": "DJ AMXN has you covered with Asian dance floor fillers.",
+                            "medium": "DJ AMXN has you covered with Asian dance floor fillers.",
+                            "long": null
+                        }
+                    }
+                ],
+                "availability": {
+                    "type": "original",
+                    "id": "m002cp9w",
+                    "duration": 7200,
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "has_guidance": false,
+                    "available_from_date": "2025-06-05T19:00:00Z",
+                    "available_to_date": "2025-07-12T02:00:00Z",
+                    "status": "available",
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 97000000,
+                                "label": "97 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 128000000,
+                                "label": "128 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 318000000,
+                                "label": "318 MB"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

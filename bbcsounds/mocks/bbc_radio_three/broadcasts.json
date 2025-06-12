@@ -1,0 +1,90 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/BroadcastsResponse",
+    "total": 1,
+    "limit": 30,
+    "offset": 0,
+    "data": [
+        {
+            "type": "broadcast",
+            "pid": "p0lbh8tn",
+            "start": "2025-06-11T23:30:00Z",
+            "end": "2025-06-12T05:30:00Z",
+            "service_id": "bbc_radio_three",
+            "duration": 21600,
+            "progress": 4961,
+            "live": false,
+            "blanked": false,
+            "repeat": false,
+            "critical": false,
+            "on_air": true,
+            "programme": {
+                "type": "episode",
+                "id": "m002cyxk",
+                "urn": "urn:bbc:radio:episode:m002cyxk",
+                "network": {
+                    "id": "bbc_radio_three",
+                    "key": "radio3",
+                    "short_title": "Radio 3",
+                    "long_title": "BBC Radio 3",
+                    "group": "radio",
+                    "active": true
+                },
+                "media_type": "audio",
+                "release_date": "2025-06-12T00:00:00Z",
+                "siblings_count": 0,
+                "position": {
+                    "position": null,
+                    "total": null
+                },
+                "titles": {
+                    "primary": "Through the Night",
+                    "secondary": "Mystery: Bruckner's Eighth Symphony",
+                    "tertiary": null,
+                    "entity_title": "Mystery: Bruckner's Eighth Symphony",
+                    "display_title": "Through the Night - Mystery: Bruckner's Eighth Symphony",
+                    "primary_title": "Through the Night",
+                    "secondary_title": null
+                },
+                "synopses": {
+                    "short": "The WDR Symphony Orchestra, Cologne performs Bruckner's Eighth Symphony.",
+                    "medium": "The WDR Symphony Orchestra, Cologne performs Bruckner's Eighth Symphony that the composer himself described as a 'mystery'. Penny Gore presents.",
+                    "long": "The WDR Symphony Orchestra, Cologne performs Bruckner's Eighth Symphony that the composer himself described as a 'mystery'. Penny Gore presents.\n\n12:31 AM\nAnton Bruckner (1824-1896)\nSymphony no 8 in C Minor\nWDR Symphony Orchestra, Cologne, Philippe Jordan (conductor)\n\n01:50 AM\nRichard Wagner (1813-1883)\n\"Mogst du, mein kind\" (Daland's aria from Act II Die Fliegende Hollander)\nMartti Talvela (bass), Finnish Radio Symphony Orchestra, Jussi Jalas (conductor)\n\n01:56 AM\nWolfgang Amadeus Mozart (1756-1791)\nSymphony No 41 in C major, K551, 'Jupiter'\nFreiburg Baroque Orchestra, Rene Jacobs (conductor)\n\n02:31 AM\nIgor Stravinsky (1882-1971)\nThe Soldier's tale - suite arranged for clarinet, violin and piano\nKaja Danczowska (violin), Michel Lethiec (clarinet), Yeol Eum Son (piano)\n\n02:46 AM\nMax Reger (1873-1916)\nVariations and fugue on a theme of Mozart, Op 132\nOrchestra della Svizzera Italiana, Philippe Bach (conductor)\n\n03:18 AM\nLudwig van Beethoven (1770-1827)\nSymphony No 8 in F major, Op 93\nBBC Philharmonic, Gianandrea Noseda (conductor)\n\n03:44 AM\nHelena Winkelman (b.1974)\nConcerto for Two Recorders and Strings\nCamerata Variabile Basel, Helena Winkelman (conductor)\n\n04:00 AM\nGabriel Faure (1845-1924), orch. Jon Washburn \nMesse Basse\nHenriette Schellenberg (soprano), Vancouver Chamber Choir, CBC Vancouver Orchestra, Jon Washburn (conductor)\n\n04:10 AM\nGeorg Christoph Wagenseil (1715-1777)\nConcerto for trombone and orchestra in E flat major\nWarwick Tyrrell (trombone), Adelaide Symphony Orchestra, Nicholas Braithwaite (conductor)\n\n04:20 AM\nDorothy Howell (1898-1982)\nTwo Pieces for Muted Strings\nBBC Symphony Orchestra, Michael Collins (conductor)\n\n04:31 AM\nPierre de la Rue (1452-1518)\nMissa Sancto Job: Kyrie\nOrlando Consort\n\n04:36 AM\nGedimas Gelgotas (b.1986)\nNever Ignore the Cosmic Ocean\nBaltic Sea Youth Philharmonic, Kristjan Jarvi (conductor)\n\n04:42 AM\nGeorges Hue (1858-1948)\nPhantasy vers. flute and piano\nIveta Kundratova (flute), Inna Aslamasova (piano)\n\n04:50 AM\nTraditional, arr. Michael Hurst\nTen Thousand Miles Away\nWest Australian Symphony Orchestra, David Measham (conductor)\n\n04:56 AM\nHenk Badings (1907-1987)\nCanamus, amici, canamus; Finnigan's wake\nNetherlands Chamber Choir, Uwe Gronostay (conductor)\n\n05:04 AM\nFryderyk Chopin (1810-1849)\nRondo in C major for Two Pianos, Op 73\nSoos-Haag Piano Duo (piano duo)\n\n05:15 AM\nGrazyna Bacewicz (1909-1969)\nMusic for strings, trumpets and percussion\nRoyal Concertgebouw Orchestra, Witold Rowicki (conductor)\n\n05:34 AM\nJohannes Brahms (1833-1897)\nPiano Concerto No 1 in D minor, Op 15\nKasparas Uinskas (piano), Slovak Radio Symphony Orchestra, Mario Kosik (conductor)\n\n06:23 AM\nSusan Spain-Dunk (1880-1962)\nTwo Scottish Pieces for orchestra, Op 54\nBBC Scottish Symphony Orchestra, Stephen Bell (conductor)"
+                },
+                "images": [
+                    {
+                        "type": "standard",
+                        "id": "p0hfl1b1",
+                        "url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0hfl1b1.jpg"
+                    }
+                ],
+                "categories": [
+                    {
+                        "type": "genre",
+                        "id": "music",
+                        "key": "music",
+                        "title": "Music"
+                    },
+                    {
+                        "type": "genre",
+                        "id": "music-classical",
+                        "key": "classical",
+                        "title": "Classical"
+                    }
+                ],
+                "ancestors": [
+                    {
+                        "type": "brand",
+                        "id": "b006tmq9",
+                        "title": "Through the Night",
+                        "synopses": {
+                            "short": "Continuous broadcast of concert music and opera, recorded from locations throughout Europe",
+                            "medium": "Continuous broadcast of concert music and opera, recorded from locations throughout Europe",
+                            "long": null
+                        }
+                    }
+                ],
+                "availability": null
+            }
+        }
+    ]
+}

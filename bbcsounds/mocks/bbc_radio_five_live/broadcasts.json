@@ -1,0 +1,90 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/BroadcastsResponse",
+    "total": 1,
+    "limit": 30,
+    "offset": 0,
+    "data": [
+        {
+            "type": "broadcast",
+            "pid": "p0lcxl87",
+            "start": "2025-06-12T00:00:00Z",
+            "end": "2025-06-12T04:00:00Z",
+            "service_id": "bbc_radio_five_live",
+            "duration": 14400,
+            "progress": 3240,
+            "live": false,
+            "blanked": false,
+            "repeat": false,
+            "critical": false,
+            "on_air": true,
+            "programme": {
+                "type": "episode",
+                "id": "m002db6z",
+                "urn": "urn:bbc:radio:episode:m002db6z",
+                "network": {
+                    "id": "bbc_radio_five_live",
+                    "key": "5live",
+                    "short_title": "Radio 5 Live",
+                    "long_title": "BBC Radio 5 Live",
+                    "group": "radio",
+                    "active": true
+                },
+                "media_type": "audio",
+                "release_date": "2025-06-12T00:00:00Z",
+                "siblings_count": 0,
+                "position": {
+                    "position": null,
+                    "total": null
+                },
+                "titles": {
+                    "primary": "Dotun Adebayo",
+                    "secondary": "12/06/2025",
+                    "tertiary": null,
+                    "entity_title": "12/06/2025",
+                    "display_title": "Dotun Adebayo - 12/06/2025",
+                    "primary_title": "Dotun Adebayo",
+                    "secondary_title": null
+                },
+                "synopses": {
+                    "short": "Dotun Adebayo with your calls and discussion through the night.",
+                    "medium": "Dotun Adebayo with your calls and discussion through the night. Call 08085 909693 (calls are free from mobiles and landlines).\nText 85058 (charged at your standard message rate).",
+                    "long": null
+                },
+                "images": [
+                    {
+                        "type": "standard",
+                        "id": "p0byv5dq",
+                        "url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0byv5dq.jpg"
+                    }
+                ],
+                "categories": [
+                    {
+                        "type": "genre",
+                        "id": "factual",
+                        "key": "factual",
+                        "title": "Factual"
+                    },
+                    {
+                        "type": "genre",
+                        "id": "news",
+                        "key": "news",
+                        "title": "News"
+                    }
+                ],
+                "ancestors": [
+                    {
+                        "type": "brand",
+                        "id": "m000ktww",
+                        "title": "Dotun Adebayo",
+                        "synopses": {
+                            "short": "Dotun Adebayo with news, plus your calls and discussion through the night.",
+                            "medium": "Dotun Adebayo with news, plus your calls and discussion through the night.",
+                            "long": null
+                        }
+                    }
+                ],
+                "availability": null
+            }
+        }
+    ]
+}

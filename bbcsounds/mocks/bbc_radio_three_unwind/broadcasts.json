@@ -1,0 +1,119 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/BroadcastsResponse",
+    "total": 1,
+    "limit": 30,
+    "offset": 0,
+    "data": [
+        {
+            "type": "broadcast",
+            "pid": "p0lcy3yd",
+            "start": "2025-06-11T23:30:00Z",
+            "end": "2025-06-12T05:00:00Z",
+            "service_id": "bbc_radio_three_unwind",
+            "duration": 19800,
+            "progress": 5406,
+            "live": false,
+            "blanked": false,
+            "repeat": false,
+            "critical": false,
+            "on_air": true,
+            "programme": {
+                "type": "episode",
+                "id": "m0025kvj",
+                "urn": "urn:bbc:radio:episode:m0025kvj",
+                "network": {
+                    "id": "bbc_radio_three_unwind",
+                    "key": "radio3unwind",
+                    "short_title": "Radio 3 Unwind",
+                    "long_title": "BBC Radio 3 Unwind",
+                    "group": "radio",
+                    "active": true
+                },
+                "media_type": "audio",
+                "release_date": "2024-12-02T00:00:00Z",
+                "siblings_count": 0,
+                "position": {
+                    "position": null,
+                    "total": null
+                },
+                "titles": {
+                    "primary": "Sleep Tracks",
+                    "secondary": "Cosy up by the fireplace",
+                    "tertiary": null,
+                    "entity_title": "Cosy up by the fireplace",
+                    "display_title": "Sleep Tracks - Cosy up by the fireplace",
+                    "primary_title": "Sleep Tracks",
+                    "secondary_title": null
+                },
+                "synopses": {
+                    "short": "Doze off to a mix of comforting sounds and cosy classical music.",
+                    "medium": "Doze off to a mix of comforting sounds and cosy classical music. Warm yourself by a flickering fireplace, and rest awhile with this relaxing soundtrack for slumber.",
+                    "long": "Doze off to a mix of comforting sounds and cosy classical music. Warm yourself by a flickering fireplace, and rest awhile with this relaxing soundtrack for slumber.\n\nSleep Tracks on BBC Radio 3 Unwind combines soothing classical music and calming nature sounds to help you relax into sleep. Search 'Sleep Tracks' on BBC Sounds to enjoy more episodes.\n\nProduced by Alice Boyd and Joy Nkoyo.\nA Peanut & Crumb production for BBC Radio 3 Unwind."
+                },
+                "images": [
+                    {
+                        "type": "standard",
+                        "id": "p0k1f553",
+                        "url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0k1f553.jpg"
+                    }
+                ],
+                "categories": [
+                    {
+                        "type": "genre",
+                        "id": "music",
+                        "key": "music",
+                        "title": "Music"
+                    }
+                ],
+                "ancestors": [
+                    {
+                        "type": "brand",
+                        "id": "m0024qvv",
+                        "title": "Sleep Tracks",
+                        "synopses": {
+                            "short": "Drift off with a blend of nature sounds and restful classical music.",
+                            "medium": "Drift off with a blend of nature sounds and restful, relaxing classical music. A perfect soundtrack to help guide you to a peaceful state of slumber.",
+                            "long": "Drift off with a blend of restful, relaxing classical music and the sounds of nature. A perfect soundtrack to help guide you to a peaceful state of slumber. \n \nDoze off to the sounds of desert sands. Dream to the backdrop of a Midsummer night. Bathe in the shade of the glade. Or put your feet up by the fireplace. Transport yourself to a place of slumber with Sleep Tracks on BBC Radio 3 Unwind. \n\nTo listen on most smart speakers just 'ask BBC Sounds to play Sleep Tracks'.\n \nProduced by Alice Boyd and Joy Nkoyo.\nA Peanut & Crumb production for BBC Radio 3 Unwind."
+                        }
+                    }
+                ],
+                "availability": {
+                    "type": "original",
+                    "id": "m0025kvh",
+                    "duration": 19800,
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "has_guidance": false,
+                    "available_from_date": "2024-12-02T06:00:00Z",
+                    "available_to_date": null,
+                    "status": "available",
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 263000000,
+                                "label": "263 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 350000000,
+                                "label": "350 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 873000000,
+                                "label": "873 MB"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

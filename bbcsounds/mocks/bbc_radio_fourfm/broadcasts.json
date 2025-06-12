@@ -1,0 +1,84 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/BroadcastsResponse",
+    "total": 1,
+    "limit": 30,
+    "offset": 0,
+    "data": [
+        {
+            "type": "broadcast",
+            "pid": "p0lcxlrd",
+            "start": "2025-06-12T00:00:00Z",
+            "end": "2025-06-12T04:00:00Z",
+            "service_id": "bbc_radio_fourfm",
+            "duration": 14400,
+            "progress": 3196,
+            "live": false,
+            "blanked": false,
+            "repeat": false,
+            "critical": false,
+            "on_air": true,
+            "programme": {
+                "type": "episode",
+                "id": "m002dbbf",
+                "urn": "urn:bbc:radio:episode:m002dbbf",
+                "network": {
+                    "id": "bbc_radio_four",
+                    "key": "radio4",
+                    "short_title": "Radio 4",
+                    "long_title": "BBC Radio 4",
+                    "group": "",
+                    "active": true
+                },
+                "media_type": "audio",
+                "release_date": "2025-06-12T00:00:00Z",
+                "siblings_count": 0,
+                "position": {
+                    "position": null,
+                    "total": null
+                },
+                "titles": {
+                    "primary": "Selection of BBC World Service Programmes",
+                    "secondary": "12/06/2025",
+                    "tertiary": null,
+                    "entity_title": "12/06/2025",
+                    "display_title": "Selection of BBC World Service Programmes - 12/06/2025",
+                    "primary_title": "Selection of BBC World Service Programmes",
+                    "secondary_title": null
+                },
+                "synopses": {
+                    "short": "A selection of BBC World Service news and current affairs, arts and science programmes.",
+                    "medium": "BBC Radio 4 presents a selection of news and current affairs, arts and science programmes from the BBC World Service.",
+                    "long": null
+                },
+                "images": [
+                    {
+                        "type": "standard",
+                        "id": "p0fnmsh3",
+                        "url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0fnmsh3.jpg"
+                    }
+                ],
+                "categories": [
+                    {
+                        "type": "genre",
+                        "id": "factual",
+                        "key": "factual",
+                        "title": "Factual"
+                    }
+                ],
+                "ancestors": [
+                    {
+                        "type": "brand",
+                        "id": "b006s54y",
+                        "title": "Selection of BBC World Service Programmes",
+                        "synopses": {
+                            "short": "A selection of BBC World Service news and current affairs, arts and science programmes",
+                            "medium": "BBC Radio 4 presents a selection of news and current affairs, arts and science programmes from the BBC World Service",
+                            "long": null
+                        }
+                    }
+                ],
+                "availability": null
+            }
+        }
+    ]
+}

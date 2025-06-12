@@ -1,0 +1,96 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/BroadcastsResponse",
+    "total": 1,
+    "limit": 30,
+    "offset": 0,
+    "data": [
+        {
+            "type": "broadcast",
+            "pid": "p0lbh8b7",
+            "start": "2025-06-12T00:00:00Z",
+            "end": "2025-06-12T02:00:00Z",
+            "service_id": "bbc_1xtra",
+            "duration": 7200,
+            "progress": 3441,
+            "live": false,
+            "blanked": false,
+            "repeat": false,
+            "critical": false,
+            "on_air": true,
+            "programme": {
+                "type": "episode",
+                "id": "m002bpwn",
+                "urn": "urn:bbc:radio:episode:m002bpwn",
+                "network": {
+                    "id": "bbc_1xtra",
+                    "key": "1xtra",
+                    "short_title": "Radio 1Xtra",
+                    "long_title": "BBC Radio 1Xtra",
+                    "group": "radio",
+                    "active": true
+                },
+                "media_type": "audio",
+                "release_date": "2025-05-11T00:00:00Z",
+                "siblings_count": 0,
+                "position": {
+                    "position": null,
+                    "total": null
+                },
+                "titles": {
+                    "primary": "BBC Introducing on 1Xtra",
+                    "secondary": "with Angelle Joseph: Klaudia Keziah Steps Up!",
+                    "tertiary": null,
+                    "entity_title": "with Angelle Joseph: Klaudia Keziah Steps Up!",
+                    "display_title": "BBC Introducing on 1Xtra - with Angelle Joseph: Klaudia Keziah Steps Up!",
+                    "primary_title": "BBC Introducing on 1Xtra",
+                    "secondary_title": null
+                },
+                "synopses": {
+                    "short": "Angelle plays the best under the radar music from 1Xtra and Klaudia Keziah Steps Up!",
+                    "medium": "Angelle Joseph plays the best new and under the radar music from the BBC Introducing Uploader. Klaudia Keziah from Solent also Steps Up!",
+                    "long": "Angelle Joseph plays the best new and under the radar music from the BBC Introducing Uploader. Klaudia Keziah from Solent also Steps Up!\n\nR&B singer Kan\u00e9 from London takes on this week's 60 Second Challenge!\n\nAngelle is also gearing up for next week's showcase at The Great Escape!"
+                },
+                "images": [
+                    {
+                        "type": "standard",
+                        "id": "p0j42sb4",
+                        "url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0j42sb4.jpg"
+                    }
+                ],
+                "categories": [
+                    {
+                        "type": "genre",
+                        "id": "music",
+                        "key": "music",
+                        "title": "Music"
+                    },
+                    {
+                        "type": "genre",
+                        "id": "music-hiphoprnbanddancehall",
+                        "key": "hiphoprnbanddancehall",
+                        "title": "Hip Hop, RnB & Dancehall"
+                    },
+                    {
+                        "type": "genre",
+                        "id": "music-hiphoprnbanddancehall-experimentalandnew",
+                        "key": "experimentalandnew",
+                        "title": "Experimental & New"
+                    }
+                ],
+                "ancestors": [
+                    {
+                        "type": "brand",
+                        "id": "m001bpbs",
+                        "title": "BBC Introducing on 1Xtra",
+                        "synopses": {
+                            "short": "The best new and under the radar music from 1Xtra.",
+                            "medium": "The best new and under the radar music from 1Xtra.",
+                            "long": null
+                        }
+                    }
+                ],
+                "availability": null
+            }
+        }
+    ]
+}

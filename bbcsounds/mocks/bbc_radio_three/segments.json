@@ -1,0 +1,50 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/SegmentItemsResponse",
+    "total": 2,
+    "limit": 4,
+    "offset": 0,
+    "data": [
+        {
+            "type": "segment_item",
+            "id": "p0lhrm3z",
+            "urn": "urn:bbc:radio:segment:music:n45fxh",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Richard Wagner",
+                "secondary": "\"Mogst du, mein kind\" (Daland's aria from Act II Die Fliegende Hollander)",
+                "tertiary": null,
+                "entity_title": "Richard Wagner"
+            },
+            "synopses": null,
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p06rzkwq.jpg",
+            "offset": {
+                "start": 4853,
+                "end": 5151,
+                "label": "Now Playing",
+                "now_playing": true
+            },
+            "uris": []
+        },
+        {
+            "type": "segment_item",
+            "id": "p0lhrjbj",
+            "urn": "urn:bbc:radio:segment:music:n8qr56",
+            "segment_type": "music",
+            "titles": {
+                "primary": "Anton Bruckner",
+                "secondary": "Symphony no 8 in C Minor",
+                "tertiary": null,
+                "entity_title": "Anton Bruckner"
+            },
+            "synopses": null,
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p01bqt71.jpg",
+            "offset": {
+                "start": 74,
+                "end": 4834,
+                "label": "1 Minute Ago",
+                "now_playing": false
+            },
+            "uris": []
+        }
+    ]
+}
