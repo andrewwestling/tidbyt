@@ -177,7 +177,7 @@ def get_header_bar(station_id):
                 content = station_config["display_name"],
                 height = 6,
                 font = "tom-thumb",
-                color = station_config["text_color"]
+                color = station_config["text_color"],
             ),
         ],
     )
@@ -192,8 +192,8 @@ def get_error_content(station_id):
                 width = 64,
                 child = render.Text(
                     content = "Can't connect to {} :(".format(station_config["name"]),
-                    color = COLORS["error_red"]
-                )
+                    color = COLORS["error_red"],
+                ),
             ),
         ],
     )
@@ -216,6 +216,7 @@ def main(config):
         endpoint = "https://rms.api.bbc.co.uk/v2/broadcasts/latest?service={}&on_air=now".format(station_id)
         # Test data (run the "Mocks: Start server" VS Code task then uncomment the line below to test):
         # endpoint = "http://localhost:61010/{}/broadcasts.json".format(station_id)  # Real API data
+
     else:
         endpoint = "https://rms.api.bbc.co.uk/v2/services/{}/segments/latest".format(station_id)
         # Test data (run the "Mocks: Start server" VS Code task then uncomment the line below to test):
@@ -324,6 +325,7 @@ def main(config):
                 if not composer:
                     synopses = programme.get("synopses", {})
                     composer = synopses.get("short", "") or ""
+
     # Handle colors
     color_title = station_config["color"]
     color_details = COLORS["white"]
