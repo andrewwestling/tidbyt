@@ -240,7 +240,7 @@ def main(config):
     has_data = data and "data" in data and len(data["data"]) > 0
 
     title = ""
-    composer = ""
+    detail = ""
     should_fallback_to_broadcasts = False
 
     if has_data:
@@ -252,19 +252,19 @@ def main(config):
 
             # For broadcasts, use primary (programme name) and secondary (episode title)
             title = titles.get("primary", "") or ""
-            composer = titles.get("secondary", "") or ""
+            detail = titles.get("secondary", "") or ""
 
             # Add tertiary information if available
             tertiary = titles.get("tertiary", "") or ""
-            if tertiary and composer:
-                composer = composer + " - " + tertiary
-            elif tertiary and not composer:
-                composer = tertiary
+            if tertiary and detail:
+                detail = detail + " - " + tertiary
+            elif tertiary and not detail:
+                detail = tertiary
 
             # If no secondary/tertiary title, use synopsis short as subtitle
-            if not composer:
+            if not detail:
                 synopses = programme.get("synopses", {})
-                composer = synopses.get("short", "") or ""
+                detail = synopses.get("short", "") or ""
         else:
             # Handle segments data - look for currently playing item
             current_item = None
@@ -279,27 +279,27 @@ def main(config):
 
                 if current_item.get("segment_type") == "music":
                     # For music: primary is usually composer, secondary is piece title
-                    composer = titles.get("primary", "") or ""
+                    detail = titles.get("primary", "") or ""
                     title = titles.get("secondary", "") or ""
 
-                    # If no secondary title, use primary as title and clear composer
-                    if not title and composer:
-                        title = composer
-                        composer = ""
+                    # If no secondary title, use primary as title and clear detail
+                    if not title and detail:
+                        title = detail
+                        detail = ""
                 elif current_item.get("segment_type") == "speech":
                     # For speech segments: use primary as title, secondary as subtitle/description
                     title = titles.get("primary", "") or ""
-                    composer = titles.get("secondary", "") or ""
+                    detail = titles.get("secondary", "") or ""
                 else:
                     # Fallback for unknown segment types
                     title = titles.get("primary", "") or titles.get("secondary", "") or ""
-                    composer = ""
+                    detail = ""
             else:
                 # No currently playing item found, fallback to broadcasts
                 should_fallback_to_broadcasts = True
 
     # If segments mode but no good data, fallback to broadcasts API
-    if display_mode == "segments" and (not has_data or should_fallback_to_broadcasts or (not title and not composer)):
+    if display_mode == "segments" and (not has_data or should_fallback_to_broadcasts or (not title and not detail)):
         broadcasts_endpoint = "https://rms.api.bbc.co.uk/v2/broadcasts/latest?service={}&on_air=now".format(station_id)
         broadcasts_response = http.get(url = broadcasts_endpoint, ttl_seconds = 30)
 
@@ -312,19 +312,19 @@ def main(config):
 
                 # Use broadcast data as fallback
                 title = titles.get("primary", "") or ""
-                composer = titles.get("secondary", "") or ""
+                detail = titles.get("secondary", "") or ""
 
                 # Add tertiary information if available
                 tertiary = titles.get("tertiary", "") or ""
-                if tertiary and composer:
-                    composer = composer + " - " + tertiary
-                elif tertiary and not composer:
-                    composer = tertiary
+                if tertiary and detail:
+                    detail = detail + " - " + tertiary
+                elif tertiary and not detail:
+                    detail = tertiary
 
                 # If no secondary/tertiary title, use synopsis short as subtitle
-                if not composer:
+                if not detail:
                     synopses = programme.get("synopses", {})
-                    composer = synopses.get("short", "") or ""
+                    detail = synopses.get("short", "") or ""
 
     # Handle colors
     color_title = station_config["color"]
@@ -344,8 +344,8 @@ def main(config):
         if title:
             # Don't pad the top one because it doesn't need it
             data_parts.append(render.Padding(pad = 0, child = render.WrappedText(align = "center", width = 64, content = title, font = "tb-8", color = color_title)))
-        if composer:
-            data_parts.append(render.Padding(pad = pad, child = render.WrappedText(align = "center", width = 64, content = composer, font = "tom-thumb", color = color_details)))
+        if detail:
+            data_parts.append(render.Padding(pad = pad, child = render.WrappedText(align = "center", width = 64, content = detail, font = "tom-thumb", color = color_details)))
 
         root_contents = render.Marquee(
             scroll_direction = "vertical",
@@ -358,8 +358,8 @@ def main(config):
         # For horizontal mode, each child needs to be its own Marquee widget, so each line will scroll individually when too long
         if title:
             data_parts.append(render.Marquee(width = 64, child = render.Text(content = title, font = "tb-8", color = color_title)))
-        if composer:
-            data_parts.append(render.Marquee(width = 64, child = render.Text(content = composer, font = "tom-thumb", color = color_details)))
+        if detail:
+            data_parts.append(render.Marquee(width = 64, child = render.Text(content = detail, font = "tom-thumb", color = color_details)))
 
         root_contents = render.Column(
             expanded = True,
